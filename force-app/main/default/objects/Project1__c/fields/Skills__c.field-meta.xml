@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skills__c</fullName>
+    <externalId>false</externalId>
+    <label>Skills</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Leadership</fullName>
+                <default>false</default>
+                <label>Leadership</label>
+            </value>
+            <value>
+                <fullName>Team Player</fullName>
+                <default>false</default>
+                <label>Team Player</label>
+            </value>
+            <value>
+                <fullName>Decision Making</fullName>
+                <default>false</default>
+                <label>Decision Making</label>
+            </value>
+            <value>
+                <fullName>Quick Learner</fullName>
+                <default>false</default>
+                <label>Quick Learner</label>
+            </value>
+            <value>
+                <fullName>DSA</fullName>
+                <default>false</default>
+                <label>DSA</label>
+            </value>
+            <value>
+                <fullName>Frontend</fullName>
+                <default>false</default>
+                <label>Frontend</label>
+            </value>
+            <value>
+                <fullName>Backend</fullName>
+                <default>false</default>
+                <label>Backend</label>
+            </value>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Soft Skills</controllingFieldValue>
+            <valueName>Leadership</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Soft Skills</controllingFieldValue>
+            <valueName>Team Player</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Soft Skills</controllingFieldValue>
+            <valueName>Decision Making</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Soft Skills</controllingFieldValue>
+            <valueName>Quick Learner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Skills</controllingFieldValue>
+            <valueName>DSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Skills</controllingFieldValue>
+            <valueName>Frontend</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Skills</controllingFieldValue>
+            <valueName>Backend</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Skills</controllingFieldValue>
+            <valueName>Salesforce</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Opportunity_Closed_Lost_Reason</fullName>
+    <active>true</active>
+    <description>Reason for Closed Lost is mandatory</description>
+    <errorConditionFormula>AND(ISPICKVAL(StageName, &quot;Closed Lost&quot;),ISBLANK( npsp__Closed_Lost_Reason__c ))</errorConditionFormula>
+    <errorDisplayField>npo02__systemHouseholdContactRoleProcessor__c</errorDisplayField>
+    <errorMessage>Enter the closed lost reason</errorMessage>
+</ValidationRule>

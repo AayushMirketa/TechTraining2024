@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The Developer should have the same project as the Reporting Manager</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Developer should have the same project as the Reporting Manager</inlineHelpText>
+    <label>Project</label>
+    <referenceTo>Project1__c</referenceTo>
+    <relationshipLabel>Developers1</relationshipLabel>
+    <relationshipName>Developers1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
